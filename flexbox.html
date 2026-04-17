@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            padding: 50px 50px;
+        }
+
+        /* "para estilizar usando class : . + nome da classe" */
+        .box1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: blue;
+            width: 400px;
+            height: 400px;
+
+        }
+
+        /* "para estilizar usando id : # + nome do id" */
+        #título-principal {
+            color: #ffffff;
+        }
+
+        ul {
+            display: flex;
+            gap: 30px;
+
+        }
+
+        ul li {
+            list-style: none;
+            font-size: 1.5rem;
+        }
+
+        a {
+            color: #969696;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-decoration: none;
+        }
+
+        /* "hover:seletor para quando o mouse estiver sobre o elemeto" */
+        a:hover {
+            color: brown;
+            text-decoration: underline;
+            font-weight: 700;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box1">
+
+        <h1 id="título-principal">Flexbox</h1>
+        <h2 id="título-principal">Flexbox2</h2>
+        <h2 id="título-principal">Flexbox3</h2>
+        <h2 id="título-principal">Flexbox4</h2>
+        <h2 id="título-principal">Flexbox5</h2>
+
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="s">Home</a></li>
+            <li><a href="s">Sobre</a></li>
+            <li><a href="s">Serviço</a></li>
+            <li><a href="s">Contato</a></li>
+        </ul>
+    </nav>
+
+</body>
+
+</html>
